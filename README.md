@@ -8,7 +8,8 @@ A static site with no build step. Every file in this folder is published as-is.
 |---|---|
 | `index.html` | The whole site: content, styles and script in one page |
 | `404.html` | Page shown for broken links |
-| `favicon.svg` | Browser tab icon |
+| `favicon.svg`, `apple-touch-icon.png` | Browser tab and phone home-screen icons |
+| `og-image.png` | Preview image shown when the link is shared |
 | `robots.txt`, `sitemap.xml` | Help search engines index the site |
 | `_headers` | Security headers (used by Cloudflare) |
 
